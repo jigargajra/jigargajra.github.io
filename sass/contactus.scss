@@ -1,0 +1,95 @@
+@import "compass";
+@import "compass/reset";
+@import "compass/css3";
+@import "compass/utilities";
+
+#socialfb{
+   float: left;
+   //width: 33%;
+}
+
+#socialtr{
+   float: left;
+   //width: 33%;
+}
+
+#socialln{
+   float: left;
+   //width: 33%;
+}
+
+#contact_info_header{
+    text-align:right;
+}
+
+#social_media_info{
+    text-align:left;
+}
+
+p{
+    font-size:150%;
+    text-align:center;
+}
+
+#contact_form{
+    border: 2px inset;
+    border-color: black;
+    margin: 5px;
+    padding: 10px;
+    width :90%;
+    height: 200px;
+    align:middle;
+    flex: 1;
+}
+
+#social_form{
+    border: 2px inset;
+    border-color: black;
+    margin: 5px;
+    padding: 10px;
+    width :90%;
+    height: 200px;
+    align:middle;
+    flex: 1;
+}
+
+.soc_ico{
+    height: 75px;
+    width: 75;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    margin: 5px;
+}
+
+#contact_header{
+   float: left;
+   width: 50%;
+   flex: 2;
+}
+
+#contact_social{
+   float: right;
+   width: 50%;
+   flex: 2;
+}
+
+section{
+  display:flex;
+  flex-flow:row wrap;
+  justify-content: space-between;
+}
+
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 568px) and (orientation : portrait)
+{
+  body{
+  background-color: white;
+  .contact { order: -1;}
+  }
+}
+
+@media screen and (max-width: 600px)
+{
+  section {flex-flow: column;}
+}

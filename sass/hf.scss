@@ -1,0 +1,71 @@
+@import "compass";
+@import "compass/reset";
+@import "compass/css3";
+@import "compass/utilities";
+
+//header common css begins
+
+#nav_ul{
+    list-style-type: none;
+    margin: 1px;
+    padding: 1px;
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width:100%;
+}
+
+#nav_ul li{
+    border:1px solid #bbb;
+    padding: 1px;   
+    display: inline-block;
+    margin: auto;
+}
+
+#nav_ul li a {
+    color: white;
+    text-align: center;
+    padding: 11px 2px;
+    text-decoration: none;
+    font-family: 'Tangerine', 'serif';
+    font-size: 24px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 500;
+}
+
+#nav_ul li a:hover:not(.active) {
+    background-color: #111;
+}
+
+#nav_ul .active {
+    background-color: #4CAF50;
+}
+//header common css ends
+
+#page_title{
+    font-size:200%;
+    text-align:center;
+    font-family: Papyrus, fantasy;
+}
+
+#body_font{
+text-align:center;
+font-size:110%;
+font-family: 'Poiret One', cursive;
+}
+
+//footer common css begins
+#footer{
+    width: 100%;
+    position: fixed;
+    background-color: #111;
+    text-align:center;
+    min-height:30px;
+    clear:both;
+    bottom: 0;
+    color: #4CAF50;
+    font-family: Copperplate, 'Copperplate Gothic Light', fantasy;
+}
+//footer common css ends

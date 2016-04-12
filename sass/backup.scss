@@ -1,0 +1,42 @@
+	@include border-radius(0.5em);
+	@include box-shadow(rgba(black, 0.5) 2px 2px 3px, rgba(white, 0.5) 0 0 3px 1px inset);
+	flex: 2;
+	#profile_left{
+	flex: 1;
+	}
+	#profile_center{
+	flex: 1;
+	}
+	#profile_right{
+	flex: 1;
+	}
+	
+	#education{
+	background-color: red;
+	border-style: groove;
+	border-width: 2px;
+	width: 100%;
+	@include border-radius(0.5em);
+	@include box-shadow(rgba(black, 0.5) 2px 2px 3px, rgba(white, 0.5) 0 0 3px 1px inset);
+	flex: 2;
+}
+
+#skills{
+	background-color: red;
+	border-style: groove;
+	border-width: 2px;
+	width: 100%;
+	@include border-radius(0.5em);
+	@include box-shadow(rgba(black, 0.5) 2px 2px 3px, rgba(white, 0.5) 0 0 3px 1px inset);
+	flex: 2;
+}
+
+#experience{
+	background-color: red;
+	border-style: groove;
+	border-width: 2px;
+	width: 100%;
+	@include border-radius(0.5em);
+	@include box-shadow(rgba(black, 0.5) 2px 2px 3px, rgba(white, 0.5) 0 0 3px 1px inset);
+	flex: 2;
+}

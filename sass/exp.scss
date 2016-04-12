@@ -1,0 +1,110 @@
+@import "compass";
+@import "compass/reset";
+@import "compass/css3";
+@import "compass/utilities";
+
+p{
+    font-size:150%;
+    text-align:center;
+}
+
+.com_dur{
+  width:content-fit;
+
+}
+
+.role_desc{
+  width:content-fit;
+}
+
+.experience{
+  margin: 10px;
+  padding: 20px;
+}
+
+#exp1{
+    //border: 2px inset;
+    //border-color: black;
+    margin: 5px;
+    padding: 10px;
+    height: content-fit;
+    width:content-fit;
+    align:middle;
+    flex: 2;
+    clear: both;
+}
+
+#exp1l{
+   float: left;
+   width: 40%;
+   flex: 1;
+}
+
+#exp1r{
+   float: right;
+   width: 60%;
+   flex: 2;
+}
+
+#exp2{
+    //border: 2px inset;
+    //border-color: black;
+    margin: 5px;
+    padding: 10px;
+    height: 400px;
+    align:middle;
+    flex: 2;
+    clear: both;
+}
+
+#exp2l{
+   float: left;
+   width: 40%;
+   flex: 1;
+}
+
+#exp2r{
+   float: right;
+   width: 60%;
+   flex: 2;
+}
+
+.role_nav{
+    display: block;
+    list-style-type: bullet;
+    margin-top: 1em;
+    margin-bottom: 1 em;
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 40px;
+}
+
+.work_ico{
+    height: 100px;
+    width: 130px;
+    padding: 5px;
+    clear: both;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+section{
+  display:flex;
+  flex-flow:row wrap;
+  justify-content: space-between;
+}
+
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 568px) and (orientation : portrait)
+{
+  body{
+  background-color: white;
+  .experience { order: -1;}
+  }
+}
+
+@media screen and (max-width: 600px)
+{
+  section {flex-flow: column;}
+}

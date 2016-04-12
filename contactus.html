@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Jigar Gajra - Contact Me</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link href="stylesheets/contactus.css" rel="stylesheet" type="text/css" />
+		<link href="stylesheets/hf.css" rel="stylesheet" type="text/css" />
+		<link href="https://fonts.googleapis.com/css?family=Tangerine" rel="stylesheet" type="text/css" >
+		    <link href='https://fonts.googleapis.com/css?family=Poiret+One' rel='stylesheet' type='text/css'>
+		<link href="images/jg_tab.png" rel="shortcut icon" type="image/x-icon" />
+	</head>
+	<body>
+		<!--header-->
+		<div id="header_nav" align="center">
+			<ul id="nav_ul">
+				<li >
+					<a href="index.html">About</a>
+				</li>
+				<li>
+					<a href="education.html">Education</a>
+				</li>
+				<li>
+					<a href="skills.html">Skill</a>
+				</li>
+				<li>
+					<a href="experience.html">Experience</a>
+				</li>
+				<li>
+					<a href="project.html">Project</a>
+				</li>
+				<li>
+					<a class="active" href="contactus.html">Contact</a>
+				</li>
+			</ul>
+		</div>
+		<!--header ends-->
+		<br><br><br>
+		<!--content-->
+		<div class="contact">
+			<br>
+			<div id="contact_header">
+				<h1 id="page_title">Contact Information</h1>
+				<hr><br>
+				<p id="body_font">To contact me please use the contact form below.</p>
+				<form action="MAILTO:jg52329n@pace.edu" method="post" name="contacts" class="pure_form" enctype="text/plain" onSubmit="return ValidateForm()">
+					<div id="contact_form">
+						<fieldset>
+							<input type="text" name="lname" value="" placeholder="Last Name" spellcheck="false">
+							<input type="text" name="fname" value="" placeholder="First Name" spellcheck="false">
+							<br><br>
+							<input type="text" name="email" value="" placeholder="Email" spellcheck="false">
+							<br><br>
+							<input type="text" name="phone" value="" placeholder="Phone" spellcheck="false">
+							<br><br>
+							<textarea name="message" placeholder="Message" spellcheck="false"></textarea>
+							<div class="col"><button type="submit">Send</button></div>
+						</fieldset>
+					</div>
+				</form>
+			</div>
+			<div id="contact_social">
+				<h1 id="page_title">Social Media</h1>
+				<hr><br>
+				<p id="body_font">Connect me now on social media.</p>
+				<div id="social_form">
+					<div id="socialfb">
+						<a href="https://www.facebook.com/jigar.gajra" alt="Facebook" target="_blank"><img class="soc_ico" id="facebook" src="images/facebook.png"></a>
+					</div>
+					<div id="socialtr">
+						<a href="https://twitter.com/jigarpgajra" alt="Twitter" target="_blank"><img class="soc_ico" id="twitter" src="images/twitter.png"></a>
+					</div>
+					<div id="socialln">
+						<a href="https://www.linkedin.com/in/jigarpgajra" alt="LinkedIn" target="_blank"><img class="soc_ico" id="linkedin" src="images/linkedin.png"></a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--content ends -->
+		<!--footer-->
+		<footer id="footer">
+			<div id="footer_body">
+				<p>Created and Maintained by Jigar &copy 2016</p>
+			</div>
+		</footer>
+		<!--footer ends-->
+	</body>
+</html>

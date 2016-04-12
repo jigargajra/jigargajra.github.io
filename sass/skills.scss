@@ -1,0 +1,100 @@
+@import "compass";
+@import "compass/reset";
+@import "compass/css3";
+@import "compass/utilities";
+
+#skill_ul{
+list-style-type: none;
+margin: 2px;
+padding: 2px;
+overflow: hidden;
+}
+
+#skill_ul li{
+display: inline-block;
+border: 1.5px outset;
+margin: 1 auto;
+padding: 5px;
+text-align:center;
+width: fit-content;
+//float: left;
+}
+
+.skill_subtitle{
+border: 2px outset;
+text-align:center;
+font-size:150%;
+padding: 5px;
+margin: auto;
+width:fit-content;
+    text-decoration: underline;
+}
+
+.skills{
+  margin: 10px;
+  padding: 20px;
+}
+
+.skill_div{
+border: 2px inset #73AD21;
+padding: 5px;
+margin: auto;
+}
+
+
+#div1{
+width: 85%;
+clear: both;
+flex: 3;
+}
+
+#div2{
+width: 85%;
+clear: both;
+flex: 3;
+}
+
+#div3{
+width: 85%;
+clear: both;
+flex : 3;
+}
+
+#div4{
+width: 85%;
+clear: both;
+flex: 2;
+}
+
+#div5{
+width: 85%;
+clear: both;
+flex: 3;
+}
+
+#div6{
+width: 85%;
+clear: both;
+flex: 3;
+}
+
+
+section{
+display:flex;
+flex-flow:row wrap;
+justify-content: space-between;
+}
+
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 568px) and (orientation : portrait)
+{
+body{
+background-color: white;
+.skills { order: -1;}
+}
+}
+
+@media screen and (max-width: 600px)
+{
+section {flex-flow: column;}
+}

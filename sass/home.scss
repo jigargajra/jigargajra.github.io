@@ -1,0 +1,57 @@
+@import "compass";
+@import "compass/reset";
+@import "compass/css3";
+@import "compass/utilities";
+
+
+section{
+display:flex;
+flex-flow:row wrap;
+justify-content: space-between;
+}
+
+.about_me{
+  margin: 10px;
+  padding: 20px;
+}
+
+#pro_l{
+float:center;
+width:100%;
+//height:content-fit;
+}
+
+#header_jg{
+width: 200px;
+height: 200px;
+display:block;
+margin-left: auto;
+margin-right: auto;
+}
+
+
+#pro_r{
+float: left;
+width:100%;
+//height:content-fit;
+}
+
+section{
+display:flex;
+flex-flow:row wrap;
+justify-content: space-between;
+}
+
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 568px) and (orientation : portrait)
+{
+body{
+background-color: white;
+.about_me { order: -1;}
+}
+}
+
+@media screen and (max-width: 600px)
+{
+section {flex-flow: column;}
+}
