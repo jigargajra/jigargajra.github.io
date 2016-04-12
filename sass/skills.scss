@@ -22,12 +22,12 @@ width: fit-content;
 
 .skill_subtitle{
 border: 2px outset;
-text-align:center;
-font-size:150%;
+text-align: center;
+font-size: 150%;
 padding: 5px;
 margin: auto;
-width:fit-content;
-    text-decoration: underline;
+width: fit-content;
+text-decoration: underline;
 }
 
 .skills{
@@ -43,45 +43,57 @@ margin: auto;
 
 
 #div1{
-width: 85%;
+width: 75%;
 clear: both;
 flex: 3;
 }
 
 #div2{
-width: 85%;
+width: 75%;
 clear: both;
 flex: 3;
 }
 
 #div3{
-width: 85%;
+width: 75%;
 clear: both;
-flex : 3;
+flex : 1;
 }
 
 #div4{
-width: 85%;
+width: 75%;
+clear: both;
+flex: 1;
+}
+
+#div5{
+width: 75%;
+clear: both;
+flex: 1;
+}
+
+#div6{
+width: 75%;
+clear: both;
+flex: 1;
+}
+
+#div7{
+width: 75%;
 clear: both;
 flex: 2;
 }
 
-#div5{
-width: 85%;
+#div8{
+width: 75%;
 clear: both;
-flex: 3;
-}
-
-#div6{
-width: 85%;
-clear: both;
-flex: 3;
+flex: 2;
 }
 
 
 section{
-display:flex;
-flex-flow:row wrap;
+display: flex;
+flex-flow: row wrap;
 justify-content: space-between;
 }
 

@@ -9,12 +9,12 @@ p{
 }
 
 .com_dur{
-  width:content-fit;
+  width:fit-content;
 
 }
 
 .role_desc{
-  width:content-fit;
+  width:fit-content;
 }
 
 .experience{
@@ -23,60 +23,30 @@ p{
 }
 
 #exp1{
-    //border: 2px inset;
-    //border-color: black;
-    margin: 5px;
+    border: 2px inset;
+    border-color: black;
+    margin: auto;
     padding: 10px;
-    height: content-fit;
-    width:content-fit;
-    align:middle;
+    height: fit-content;
+    width:80%;
     flex: 2;
     clear: both;
-}
-
-#exp1l{
-   float: left;
-   width: 40%;
-   flex: 1;
-}
-
-#exp1r{
-   float: right;
-   width: 60%;
-   flex: 2;
 }
 
 #exp2{
-    //border: 2px inset;
-    //border-color: black;
-    margin: 5px;
+    border: 2px inset;
+    border-color: black;
+    margin: auto;
     padding: 10px;
-    height: 400px;
-    align:middle;
+    height: fit-content;
+    width:80%;
     flex: 2;
     clear: both;
 }
 
-#exp2l{
-   float: left;
-   width: 40%;
-   flex: 1;
-}
-
-#exp2r{
-   float: right;
-   width: 60%;
-   flex: 2;
-}
 
 .role_nav{
-    display: block;
-    list-style-type: bullet;
-    margin-top: 1em;
-    margin-bottom: 1 em;
-    margin-left: 0;
-    margin-right: 0;
-    padding-left: 40px;
+    font-family: 'Poiret One', cursive;
 }
 
 .work_ico{
